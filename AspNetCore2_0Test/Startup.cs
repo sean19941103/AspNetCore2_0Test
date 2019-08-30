@@ -23,6 +23,7 @@ namespace AspNetCore2_0Test
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
+
             }
 
             app.Run(async (context) =>
